@@ -16,7 +16,7 @@ export function FileUploadSingle() {
     }
     const formData = new FormData();
     formData.append("file", file);
-    formData.append("upload_preset", "testing123antoneugene");
+    formData.append("upload_preset", "rocketship");
     let data = "";
     await axios
       .post("https://api.cloudinary.com/v1_1/dbq7yg58d/image/upload/", formData)
